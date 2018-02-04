@@ -1,0 +1,8 @@
+Resources[
+    Version[1],
+    ExecutionBuildCommand["<<PointagesRouage`"],
+    Paclet[
+        PacletFolder["PointagesRouage"],
+        FunctionPaclet[False]
+    ]
+]
