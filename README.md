@@ -4,5 +4,5 @@ Cette application offre des fonctionnalites d'analyse des pointages platine/pont
 
 ## Développement
 
-Langage de programmation : Mathematica (Wolfram) [www.wolfram.com/mathematica](www.wolfram.com/mathematica)
-Environnement de développement : Wolfram Workbench pour Eclipse [www.wolfram.com/workbench](www.wolfram.com/workbench)
+- Langage de programmation : Mathematica (Wolfram) http://www.wolfram.com/mathematica
+- Environnement de développement : Wolfram Workbench pour Eclipse http://www.wolfram.com/workbench
