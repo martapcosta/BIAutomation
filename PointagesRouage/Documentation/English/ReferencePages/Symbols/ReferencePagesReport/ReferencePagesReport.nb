@@ -1,0 +1,225 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7298,        215]
+NotebookOptionsPosition[      5727,        185]
+NotebookOutlinePosition[      6075,        200]
+CellTagsIndexPosition[      6032,        197]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Information About Usage Messages of Symbols Whose Reference Pages Were Left \
+With No Templatizing.\
+\>", "Section",ExpressionUUID->"91bb7f89-5d79-420e-a1de-22a88fb6121b"],
+
+Cell["\<\
+This notebook is saved in the same directory as the reference pages which \
+have been created. The directory may be moved and the hyperlinks here will \
+continue to work. However if this notebook is moved out to a different \
+directory, then the hyperlinks will no longer function properly.\
+\>", "Text",ExpressionUUID->"43f7cbe8-96c0-4ae6-842e-4b9ead882ed1"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Usage messages for the following symbols do not begin with their symbol name:\
+\>", "Subsection",ExpressionUUID->"becd9453-c160-4cb1-9f85-1c2828d9150c"],
+
+Cell[BoxData[
+ ButtonBox["creerIndicateurStatistiques",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerIndicateurStatistiques", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"8b84e1fc-e0f6-44cc-a9b3-\
+1b247e7a60cb"],
+
+Cell[BoxData[
+ ButtonBox["calculerPointagesConformes",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["calculerPointagesConformes", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"8b98accd-a896-430f-acc4-\
+75bef41ac29e"],
+
+Cell[BoxData[
+ ButtonBox["creerGraphiquePointage",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerGraphiquePointage", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"4ff11d39-73d8-4fec-98ed-\
+e70152cca230"],
+
+Cell[BoxData[
+ ButtonBox["creerIndicateurEcarts",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerIndicateurEcarts", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"39fa18e1-fee8-4486-aedb-\
+837f03e683c6"],
+
+Cell[BoxData[
+ ButtonBox["creerOngletResultat",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerOngletResultat", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"30658955-b2b9-4dbe-94e8-\
+5caff52ce014"],
+
+Cell[BoxData[
+ ButtonBox["creerCadreGraphique",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerCadreGraphique", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"77692542-32c4-4a56-b3ed-\
+080a6ec9f605"],
+
+Cell[BoxData[
+ ButtonBox["creerOngletGeneral",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerOngletGeneral", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"a120192d-21a1-4d14-9473-\
+244867df4cb9"],
+
+Cell[BoxData[
+ ButtonBox["pointagesRouage",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["pointagesRouage", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"ed4b76f9-2b8e-43e1-adce-\
+ed8eeaf60524"],
+
+Cell[BoxData[
+ ButtonBox["creerCamembert",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerCamembert", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"8ab7d8ad-9a95-432c-8876-\
+7278a5d3144d"],
+
+Cell[BoxData[
+ ButtonBox["creerEncadre",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["creerEncadre", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"62727049-53cd-429a-a436-\
+c6581f7b301c"],
+
+Cell[BoxData[
+ ButtonBox["coulFondPan",
+  Active->True,
+  Appearance->{Automatic, "DialogBox", "Normal", Automatic},
+  ButtonFunction:>NotebookOpen[
+    ToFileName[{
+      ParentDirectory[
+       NotebookDirectory[
+        EvaluationNotebook[]]]}, 
+     StringJoin["coulFondPan", ".nb"]]],
+  Evaluator->Automatic]], "Text",ExpressionUUID->"234e8259-fcda-40ec-bfa3-\
+566dcbf3abd5"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{775, 872},
+WindowMargins->{{564, Automatic}, {Automatic, 74}},
+FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 181, 3, 70, "Section",ExpressionUUID->"91bb7f89-5d79-420e-a1de-22a88fb6121b"],
+Cell[764, 27, 369, 5, 70, "Text",ExpressionUUID->"43f7cbe8-96c0-4ae6-842e-4b9ead882ed1"],
+Cell[CellGroupData[{
+Cell[1158, 36, 162, 2, 70, "Subsection",ExpressionUUID->"becd9453-c160-4cb1-9f85-1c2828d9150c"],
+Cell[1323, 40, 412, 11, 70, "Text",ExpressionUUID->"8b84e1fc-e0f6-44cc-a9b3-1b247e7a60cb"],
+Cell[1738, 53, 410, 11, 70, "Text",ExpressionUUID->"8b98accd-a896-430f-acc4-75bef41ac29e"],
+Cell[2151, 66, 402, 11, 70, "Text",ExpressionUUID->"4ff11d39-73d8-4fec-98ed-e70152cca230"],
+Cell[2556, 79, 400, 11, 70, "Text",ExpressionUUID->"39fa18e1-fee8-4486-aedb-837f03e683c6"],
+Cell[2959, 92, 396, 11, 70, "Text",ExpressionUUID->"30658955-b2b9-4dbe-94e8-5caff52ce014"],
+Cell[3358, 105, 396, 11, 70, "Text",ExpressionUUID->"77692542-32c4-4a56-b3ed-080a6ec9f605"],
+Cell[3757, 118, 394, 11, 70, "Text",ExpressionUUID->"a120192d-21a1-4d14-9473-244867df4cb9"],
+Cell[4154, 131, 388, 11, 70, "Text",ExpressionUUID->"ed4b76f9-2b8e-43e1-adce-ed8eeaf60524"],
+Cell[4545, 144, 386, 11, 70, "Text",ExpressionUUID->"8ab7d8ad-9a95-432c-8876-7278a5d3144d"],
+Cell[4934, 157, 382, 11, 70, "Text",ExpressionUUID->"62727049-53cd-429a-a436-c6581f7b301c"],
+Cell[5319, 170, 380, 11, 70, "Text",ExpressionUUID->"234e8259-fcda-40ec-bfa3-566dcbf3abd5"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -8,26 +8,29 @@ Needs["PointagesRouage`Code`Variables`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
 creerOngletGeneral::usage = "ongletGeneral[label] permet de creer un onglet general."
-creerOngletResultat::usage="ongletResultat[label] permet de creer un onglet resultat."
+creerOngletResultat::usage = "ongletResultat[label] permet de creer un onglet resultat."
 
 Begin["`Private`"] (* Begin Private Context *) 
 
 creerOngletGeneral[label_] :=
-    Button[
-     Dynamic[Style[label, Bold, If[ tabGen === label,
-                                    White,
-                                    Black
-                                ]]],
-     tabGen = label,
-     Appearance -> Dynamic[If[ tabGen === label,
-                               "Pressed",
-                               Automatic
-                           ]],
-     Background -> Dynamic[If[ tabGen === label,
-                               coulFondGen,
-                               coulFondPan
-                           ]]
-     ]
+    DynamicModule[{coulFondGenDynamic, coulFondPanDynamic}, 
+     coulFondGenDynamic = coulFondGen;
+     coulFondPanDynamic = coulFondPan;
+     Button[Dynamic[
+       Style[label, Bold, If[ tabGen === label,
+                              White,
+                              Black
+                          ]]], 
+      tabGen = label, 
+      Appearance -> Dynamic[If[ tabGen === label,
+                                "Pressed",
+                                Automatic
+                            ]], 
+      Background -> 
+       Dynamic[If[ tabGen === label,
+                   coulFondGen,
+                   coulFondPan
+               ]]]]
      
 creerOngletResultat[label_] :=
     Button[

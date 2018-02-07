@@ -12,6 +12,8 @@ Needs["PointagesRouage`Code`Graphiques`IndicateurEcarts`"]
 
 (* Exported symbols added here with SymbolName::usage *)  
 
+pointagesRouage::usage = "Lance l'application d'analyse des pointages d'un rouage."
+
 Begin["`Private`"] (* Begin Private Context *) 
 
 pointagesRouage[] :=

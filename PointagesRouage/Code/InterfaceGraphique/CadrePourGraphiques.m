@@ -3,7 +3,7 @@
 BeginPackage["PointagesRouage`Code`InterfaceGraphique`CadrePourGraphiques`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
-creerCadreGraphique::usage = "permet de creer le cadre d'un graphique."
+creerCadreGraphique::usage = "creerCadreGraphique[graphique_]\npermet de creer le cadre d'un graphique."
 
 Begin["`Private`"] (* Begin Private Context *) 
 

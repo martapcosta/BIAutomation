@@ -7,7 +7,7 @@ calculerPointagesConformes::usage = "retourne {nbPointagesOK, nbPointagesKO}"
 
 Begin["`Private`"] (* Begin Private Context *) 
 
-calculerPointagesConformes[couleurPointsPlatine] :=
+calculerPointagesConformes[couleurPointsPlatine_] :=
     Map[{Count[Values[#], Darker[Green]], 
     Count[Values[#], Red]} &, couleurPointsPlatine, {1}]
 
