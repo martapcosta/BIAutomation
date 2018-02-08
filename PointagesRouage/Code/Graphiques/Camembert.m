@@ -14,8 +14,7 @@ creerCamembert[nbOkKo_List] :=
      LabelingFunction -> (Placed[
          Row[{Round[100 #], "%"}, BaseStyle -> 20], "RadialCenter"] &),
      ChartStyle -> Lighter /@ {Green, Red},
-     ImageSize -> {240, 240},
-     PerformanceGoal -> "Speed"]
+     ImageSize -> {240, 240}]
 
 End[] (* End Private Context *)
 
