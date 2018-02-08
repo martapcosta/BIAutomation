@@ -3,12 +3,12 @@
 BeginPackage["PointagesRouage`Code`Calculs`Calc`"]
 (* Exported symbols added here with SymbolName::usage *)  
 
-  MainFunction::usage = 
-	"MainFunction[ x] computes a simple function."
+  mainFunction::usage = 
+	"mainFunction[x_] computes a simple function."
 
-  Begin[ "Private`"]
+  Begin[ "`Private`"]
 
-  MainFunction[ x_] :=
+  mainFunction[x_] :=
     Module[ {y},
       y = x^2;
       y + 1

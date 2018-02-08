@@ -9,7 +9,7 @@ Test[
 ]
 
 Test[
-    MainFunction[x]
+    mainFunction[x]
     ,
     x^2+1
     ,
@@ -17,7 +17,7 @@ Test[
 ]
 
 Test[
-    MainFunction[x^2]
+    mainFunction[x^2]
     ,
     x^4+1
     ,
@@ -25,9 +25,9 @@ Test[
 ]
 
 Test[
-    MainFunction[6]
+    mainFunction[6]
     ,
     37
     ,
-    TestID->"Example3"
+    TestID->"Test-20180208-E0Y1L2"
 ]
